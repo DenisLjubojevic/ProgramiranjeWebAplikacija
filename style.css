@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: helvetica, sans-serif;
+    background-color: white;
+}
+
+.bodyMain{
+    font-family: helvetica, sans-serif;
+    background-color: #EAEAEA;
+}
+
+hr{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+    background-color: white;
+}
+
+header img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.articleHeader{
+    width: 50%;
+    margin: 0 auto;
+    height: 150px;
+    background-color: white;
+}
+
+.articleHeader img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+nav{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    height: 30px;
+}
+
+nav a{
+    float: left;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+    width: 18%;
+}
+
+nav ul, li{
+    display: block;
+    text-decoration: none;
+    padding-left: 1%;
+}
+
+nav a:first-child{
+    text-align: left;
+}
+
+nav a:nth-child(2){
+    text-align: left;
+}
+
+nav form{
+    display: inline;
+}
+
+.buttonInNav{
+    margin-top: 5px;
+    width: 55px;
+    margin-left: 10px;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.sectionMain{
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+aside{
+    margin-top: -1px;
+    width: 10%;
+    padding-left: 10px;
+    font-weight: bold;
+    float: left;
+}
+
+.articleMain{
+    margin-top: -1px;
+    text-align: left;
+    width: 28%;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: auto;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.articleMain img{
+    width: 100%;
+    margin: auto;
+}
+
+.articleMain p:nth-child(2), p:nth-child(5){
+    color: gray;
+}
+
+.articleMain p{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.articleMain p img{
+    width: 10px;
+}
+
+.articleMain h1{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.articleVijest{
+    margin-top: -1px;
+    margin: 0 auto;
+    width: 50%;
+    height: 1200px;
+    background-color: white;
+}
+
+.articleVijest div{    
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.articleVijest p,h1{
+    padding-top: 10px;
+}
+
+.articleVijest h2{    
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.articleVijest img{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.gray{
+    color: gray;
+    font-size: 12px;
+}
+
+.firstLetter{
+    font-weight: bold;
+    float: left;
+    font-size: 4em;
+    margin: 0 .1em 0 0;
+    line-height: 0.85;
+}
+
+.povlakaAside{
+    background-color: black;
+    content: "";
+    height: 0.375rem;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: -5px;
+    background-color: lightgray;
+}
+
+footer img{
+    display: block;
+    width: 50%;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+form{
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.formLogin{
+    width: 80%;
+    height: 343px;
+    margin: 0 auto;
+    background-color: white;
+    padding-left: 30%;
+}
+
+.pomak{
+    margin-left: 30%;
+    padding-top: 5px;
+}
+
+.formAdministracija{
+    margin-top: 30px;
+    margin-left: 10px;
+    border: solid;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    width: 48%;
+    float: left;
+}
+
+.sectionKategorije{
+    width: auto;
+    padding-top: 20px;
+    height: 400px;
+    background-color: white;
+}
+
+#page-container {
+    position: absolute;
+}
+
+#content-wrap {
+    padding-bottom: 200px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    clear: both;
+}
+
+.clear{
+    clear: both;
+}
